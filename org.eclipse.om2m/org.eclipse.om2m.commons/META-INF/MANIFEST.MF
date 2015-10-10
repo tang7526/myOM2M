@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Commons
+Bundle-SymbolicName: org.eclipse.om2m.commons
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.om2m.commons.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.apache.commons.logging,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.resource;version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: libs/javax.persistence.jar,
+ .
+Export-Package: org.eclipse.om2m.commons.resource,
+ org.eclipse.om2m.commons.utils
